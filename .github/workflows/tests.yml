@@ -25,4 +25,4 @@ jobs:
 
     - name: Ejecutar pruebas unitarias
       run: |
-        python -m unittest discover -s . -p "pruebas_oop/test_producto.py"
+        python -m unittest discover -s . -p "test_producto.py"
