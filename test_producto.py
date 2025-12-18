@@ -53,7 +53,7 @@ class TestProducto(unittest.TestCase):
     def test_vender_mas_de_lo_que_hay(self):
         print("❌ Probando que no se puede vender más stock del disponible")
         with self.assertRaises(ValueError):
-            self.producto.vender(20)
+            self.producto.vender(25)
 
     def test_vender_cantidad_invalida(self):
         print("❌ Probando que no se puede vender cantidad 0")
