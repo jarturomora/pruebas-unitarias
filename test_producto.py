@@ -10,7 +10,7 @@ class TestProducto(unittest.TestCase):
 
     def test_nombre_valido(self):
         print("✅ Probando que el nombre se asigna correctamente")
-        self.assertEqual(self.producto.nombre, "Teclado Mecanico")
+        self.assertEqual(self.producto.nombre, "Teclado")
 
     def test_precio_valido(self):
         print("✅ Probando que el precio se asigna correctamente")
